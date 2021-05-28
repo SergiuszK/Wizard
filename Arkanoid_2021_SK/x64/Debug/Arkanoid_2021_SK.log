@@ -1,0 +1,35 @@
+﻿  Ball.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Object.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Window.hpp': No such file or directory
+  Bullet.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Object.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Window.hpp': No such file or directory
+  Coin.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Object.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Window.hpp': No such file or directory
+  Enemy.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Object.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Window.hpp': No such file or directory
+  Game.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Menu.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  Jinn.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Object.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Window.hpp': No such file or directory
+  JinnBullet.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Object.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Window.hpp': No such file or directory
+  main.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Menu.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  Menu.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Menu.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  Object.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Object.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Window.hpp': No such file or directory
+  Rainbow.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Object.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Window.hpp': No such file or directory
+  RainbowBullet.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Object.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Window.hpp': No such file or directory
+  Ranking.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Ranking.h(7,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  Shop.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Shop.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  Spider.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Object.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Window.hpp': No such file or directory
+  SpiderWeb.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Object.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Window.hpp': No such file or directory
+  Wizard.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Object.h(2,10): fatal error C1083: Nie można otworzyć pliku dołącz: 'SFML/Window.hpp': No such file or directory
+  Generowanie kodu...

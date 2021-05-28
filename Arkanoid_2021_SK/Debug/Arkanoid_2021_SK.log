@@ -1,0 +1,23 @@
+﻿  Ranking.cpp
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Ranking.cpp(31,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Ranking.cpp(41,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Ranking.cpp(49,61): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Ranking.cpp(54,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Ranking.cpp(105,28): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Arkanoid_2021_SK.vcxproj -> C:\Users\user\source\repos\Arkanoid_2021_SK\Debug\Arkanoid_2021_SK.exe
