@@ -2,7 +2,7 @@
 #include "Ball.h"
 
 class Coin :
-    public Ball
+	public Ball
 {
 public:
 	std::vector<sf::Texture*> texture;

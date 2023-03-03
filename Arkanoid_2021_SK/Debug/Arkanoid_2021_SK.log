@@ -1,23 +1,125 @@
-﻿  Ranking.cpp
-C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Ranking.cpp(31,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+﻿  Ball.cpp
+C:\Wizard\Wizard\Arkanoid_2021_SK\Ball.cpp(46,25): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Ball.cpp(46,17): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+  Bullet.cpp
+C:\Wizard\Wizard\Arkanoid_2021_SK\Bullet.cpp(7,25): warning C4244: "=": konwersja z "double" do "T", możliwa utrata danych
           with
           [
               T=float
           ]
-C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Ranking.cpp(41,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Bullet.cpp(32,25): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Bullet.cpp(32,17): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+  Coin.cpp
+  Enemy.cpp
+C:\Wizard\Wizard\Arkanoid_2021_SK\Enemy.cpp(49,25): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Enemy.cpp(49,17): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+  Game.cpp
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(47,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(52,85): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(52,44): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(69,28): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(69,21): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(74,73): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(74,46): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(78,74): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(78,47): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(82,74): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(82,47): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(249,22): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(441,27): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(443,68): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(443,41): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(471,86): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(471,44): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(493,27): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(494,68): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(494,41): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(532,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(541,31): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(541,25): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Game.cpp(488,15): warning C4101: "event": lokalna zmienna, do której nie istnieje odwołanie
+  Jinn.cpp
+  JinnBullet.cpp
+  main.cpp
+  Menu.cpp
+C:\Wizard\Wizard\Arkanoid_2021_SK\Menu.cpp(53,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Wizard\Wizard\Arkanoid_2021_SK\Menu.cpp(59,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Wizard\Wizard\Arkanoid_2021_SK\Menu.cpp(64,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Wizard\Wizard\Arkanoid_2021_SK\Menu.cpp(86,28): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Object.cpp
+  Rainbow.cpp
+  RainbowBullet.cpp
+  Ranking.cpp
+C:\Wizard\Wizard\Arkanoid_2021_SK\Ranking.cpp(31,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
           with
           [
               T=float
           ]
-C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Ranking.cpp(49,61): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Ranking.cpp(41,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
           with
           [
               T=float
           ]
-C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Ranking.cpp(54,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Ranking.cpp(49,61): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
           with
           [
               T=float
           ]
-C:\Users\user\source\repos\Arkanoid_2021_SK\Arkanoid_2021_SK\Ranking.cpp(105,28): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-  Arkanoid_2021_SK.vcxproj -> C:\Users\user\source\repos\Arkanoid_2021_SK\Debug\Arkanoid_2021_SK.exe
+C:\Wizard\Wizard\Arkanoid_2021_SK\Ranking.cpp(54,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Wizard\Wizard\Arkanoid_2021_SK\Ranking.cpp(105,28): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Shop.cpp
+C:\Wizard\Wizard\Arkanoid_2021_SK\Shop.cpp(44,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Wizard\Wizard\Arkanoid_2021_SK\Shop.cpp(58,28): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Spider.cpp
+  SpiderWeb.cpp
+  Wizard.cpp
+C:\Wizard\Wizard\Arkanoid_2021_SK\Wizard.cpp(16,46): warning C4244: "=": konwersja z "T" do "T", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Wizard\Wizard\Arkanoid_2021_SK\Wizard.cpp(17,46): warning C4244: "=": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Wizard\Wizard\Arkanoid_2021_SK\Wizard.cpp(20,69): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Wizard.cpp(20,42): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Wizard.cpp(31,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Wizard\Wizard\Arkanoid_2021_SK\Wizard.cpp(31,35): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\Wizard\Wizard\Arkanoid_2021_SK\Wizard.cpp(63,29): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Wizard\Wizard\Arkanoid_2021_SK\Wizard.cpp(81,29): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+  Generowanie kodu...
+  Arkanoid_2021_SK.vcxproj -> C:\Wizard\Wizard\Debug\Arkanoid_2021_SK.exe

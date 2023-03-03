@@ -1,7 +1,6 @@
 #include "Jinn.h"
 #include "JinnBullet.h"
 
-
 template<typename T>
 T random(T min, T max);
 
@@ -18,13 +17,9 @@ Jinn::Jinn(sf::Vector2f vector, sf::RenderWindow* var,int level) :Enemy(vector, 
     Enemy::HP = 6000;
 }
 
-
-
 void Jinn::addBullets(std::vector<Bullet*>& bullets) {
     if (random(1, int(CLOCKS_PER_SEC) * 8) == 5) {
         bullets.push_back(new JinnBullet(this->sprite.getPosition(), window));
 
     }
 }
-
-

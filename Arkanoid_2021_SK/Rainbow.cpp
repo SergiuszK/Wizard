@@ -4,7 +4,6 @@
 template<typename T>
 T random(T min, T max);
 
-
 Rainbow::Rainbow(sf::Vector2f vector, sf::RenderWindow* var,int level) :Enemy(vector, var,level) {
     numberOfTexture = 5;
     for (int i = 1; i <= numberOfTexture; i++) {
@@ -16,7 +15,6 @@ Rainbow::Rainbow(sf::Vector2f vector, sf::RenderWindow* var,int level) :Enemy(ve
     sprite.setTexture(*texture[0]);
     sprite.setPosition(vector);
 }
-
 
 void Rainbow::addBullets(std::vector<Bullet*>& bullets) {
     if (random(1, int(CLOCKS_PER_SEC) * 8) == 5) {

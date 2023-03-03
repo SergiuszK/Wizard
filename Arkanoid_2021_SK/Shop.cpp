@@ -1,8 +1,6 @@
 #pragma once
 #include "Shop.h"
 
-
-
 Shop::Shop(float width, float height) {
 	if (!font.loadFromFile("Almendra-BoldItalic.otf"))
 	{
@@ -61,4 +59,3 @@ void Shop::MoveDown() {
 		shop[selectedItemIndex].setFillColor(sf::Color::Red);
 	}
 }
-

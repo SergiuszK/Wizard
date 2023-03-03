@@ -1,6 +1,5 @@
 #include "RainbowBullet.h"
 
-
 template<typename T>
 T random(T min, T max);
 
@@ -12,14 +11,12 @@ RainbowBullet::RainbowBullet(sf::Vector2f vector, sf::RenderWindow* var) :Bullet
 	timer = time(0);
 };
 
-
 void RainbowBullet::move() {
 	if (time(0) - timer > 0.2) {
 		timer = time(0);
         Bullet::speedX = random(-5, 5);
 	}
 
-   
 	Bullet::move();
 }
 

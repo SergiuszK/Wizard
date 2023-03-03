@@ -1,6 +1,5 @@
 #include "Ranking.h"
 
-
 Ranking::Ranking(float width, float height) {
 
 	font.loadFromFile("Almendra-BoldItalic.otf");
@@ -8,7 +7,7 @@ Ranking::Ranking(float width, float height) {
 	refresh(width, height);
 	selectedItemIndex = 0;
 	//draw();
-	
+
 }
 
 bool cmp(std::pair<int, std::string>& a,
@@ -16,7 +15,6 @@ bool cmp(std::pair<int, std::string>& a,
 {
 	return a.first > b.first;
 }
-
 
 void Ranking::refresh(float width, float height) {
 	upload();
@@ -33,16 +31,16 @@ void Ranking::refresh(float width, float height) {
 	text.setFillColor(sf::Color::White);
 	for (auto it : sorted)
 	{
-		
+
 		//std::cout << it.second;
 		//std::cout << it.first;
 
-		text.setString(std::to_string(i-1) + ". " + it.second + "    " + std::to_string(it.first));
-		text.setPosition(sf::Vector2f(width / 2, height / 3 * 0.2*i++));
+		text.setString(std::to_string(i - 1) + ". " + it.second + "    " + std::to_string(it.first));
+		text.setPosition(sf::Vector2f(width / 2, height / 3 * 0.2 * i++));
 		rankingText.push_back(text);
 		if (i == 12)
 			break;
-		
+
 	}
 	while (i < 12) {
 		text.setString(std::to_string(i - 1) + ". ---- ----");
@@ -54,7 +52,6 @@ void Ranking::refresh(float width, float height) {
 	text.setPosition(sf::Vector2f(width / 2, height / 3 * 0.2 * i++));
 	rankingText.push_back(text);
 }
-
 
 void Ranking::upload() {
 	std::string text;
@@ -69,7 +66,7 @@ void Ranking::upload() {
 		std::regex process("name: (.*) score: (.*)");
 		std::smatch sm;
 
-		while (text!="" and std::regex_search(text, sm, process)) {
+		while (text != "" and std::regex_search(text, sm, process)) {
 			//std::cout << sm.prefix();
 			temp = stoi(sm[2]);
 			//records[std::stoi(temp)] = sm[1];
@@ -92,7 +89,6 @@ void Ranking::print() {
 	}
 }
 
-
 void Ranking::MoveUp() {
 	if (selectedItemIndex - 1 >= 0) {
 		rankingText[selectedItemIndex].setFillColor(sf::Color::White);
@@ -108,6 +104,3 @@ void Ranking::MoveDown() {
 		rankingText[selectedItemIndex].setFillColor(sf::Color::Red);
 	}
 }
-
-
-

@@ -11,7 +11,7 @@ public:
 	static int number;
 	static int level;
 	int numberOfTexture = 12;
-	Enemy(sf::Vector2f vector, sf::RenderWindow* var,int);
+	Enemy(sf::Vector2f vector, sf::RenderWindow* var, int);
 	friend class Game;
 	bool getAlive() { return isAlive; }
 	friend bool collision(Object* v1, Object* v2);
@@ -24,5 +24,3 @@ public:
 	void nextLevel();
 	virtual void addBullets(std::vector<Bullet*>& bullets) = 0;
 };
-
-

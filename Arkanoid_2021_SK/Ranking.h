@@ -6,11 +6,7 @@
 #include <iostream>
 #include "SFML/Graphics.hpp"
 
-
-
-
-class Ranking
-{
+class Ranking {
 private:
 	sf::Font font;
 	sf::Text text;
@@ -20,7 +16,6 @@ private:
 	std::vector<sf::Text> rankingText;
 	void MoveUp();
 	void MoveDown();
-
 public:
 	Ranking(float width, float height);
 	void upload();
@@ -30,4 +25,3 @@ public:
 	void refresh(float width, float height);
 	friend class Game;
 };
-

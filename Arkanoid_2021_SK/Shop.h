@@ -1,13 +1,10 @@
 #pragma once
 #include "SFML/Graphics.hpp"
 
-
-class Shop
-{
+class Shop {
 public:
 	Shop(float width, float height);
 	~Shop();
-
 	void draw(sf::RenderWindow& window);
 	void MoveUp();
 	void MoveDown();
@@ -16,7 +13,6 @@ public:
 	void turnOnGame() { game = true; }
 	void turnOfGame() { game = false; }
 	int getPressedItem() { return selectedItemIndex; }
-
 private:
 	int selectedItemIndex;
 	sf::Font font;

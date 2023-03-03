@@ -10,15 +10,10 @@ protected:
 	virtual void move();
 	bool draw = true;
 	bool isAlive();
-	virtual void hit(Wizard* wizard)=0;
+	virtual void hit(Wizard* wizard) = 0;
 	std::string name;
 public:
 	Bullet(sf::Vector2f vector, sf::RenderWindow* var);
 	friend class Game;
 	friend bool collision(Object* v1, Object* v2);
-	
-
 };
-
-
-

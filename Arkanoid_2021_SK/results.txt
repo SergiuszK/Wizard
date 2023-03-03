@@ -1,3 +1,4 @@
 name: Ja score: 27
 name: JANUSZ score: 42
 name: Sergiusz score: 88
+name: w score: 67
